@@ -13,3 +13,6 @@ You have 5 tries to hit a ``` jackpot! ``` If you have tries left after a jackpo
 This game is very simple, 
 
 Match the ``` audio / image ``` with eachother to win a jackpot, if you can't. YOU LOSE!!!
+
+![Losing combo](file:///C:/Users/jaybi/Desktop/General_Assembly/SEI-59/projects/your-game/images.png)
+
