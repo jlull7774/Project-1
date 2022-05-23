@@ -14,7 +14,7 @@ This game is very simple,
 
 Match the ``` audio / image ``` with eachother to win a jackpot, if you can't. YOU LOSE!!!
 
-**Losing Combo**
+# **Losing Combo**
 
 ![Losing Combo](https://i.pinimg.com/originals/3f/f1/62/3ff162548796f9367d0efb13c7444dbf.jpg)
 
