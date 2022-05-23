@@ -1,6 +1,6 @@
 # Slot Machine of Memes
 
-## **Understanding the game**
+## **Premise**
 
 This is a game where you press a ``` button ``` and get 3 random images, sounds, and rewards. You win once you have gotten 3 ```images / audio ``` of the same in a row, just like a slot machine. 
 
