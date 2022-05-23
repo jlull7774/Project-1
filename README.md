@@ -22,5 +22,5 @@ Match the ``` audio / image ``` with eachother to win a jackpot, if you can't. Y
 
 ![WinningJackpot](https://i.pinimg.com/originals/8a/cb/12/8acb12f25a559dafb10207cf8c4e716c.jpg)
 
-# ** Home Screen**
+# **Home Screen**
 ![Home Screen](https://i.pinimg.com/originals/88/19/b6/8819b6716a072ea1022667ec64a19c0e.jpg)
