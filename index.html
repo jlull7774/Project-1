@@ -4,24 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meme Machine</title>
+    <title>Slot Machine</title>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" async defer></script>
   </head>
   <body>
-    <h1>Welcome to the Meme Machine</h1>
-    
-    <h2 class="spin-the-meme-machine">Spin the Meme Machine</h2>
-    <div class="machine-container">
-      
-      <div class="spin-container">
-        <button id="spin">Spin</button>
-        <div class="box" id="box2"></div>
-        <div class="box" id="box2"></div>
-        <div class="box" id="box3"></div>
-      </div>
+    <h1 class="spin-slots">Click to Spin the Slots!</h1>
+    <div class="spin-button">
+      <button onclick="spin()">Spin</button>
     </div>
-
-    <div class="jackpot">Jackpot!</div>
+    <table class="slots">
+      <tbody>
+        <tr>
+          <td>
+            <span id="slot1" class="slot-item"></span>
+          </td>
+          <td>
+            <span id="slot2" class="slot-item"></span>
+          </td>
+          <td>
+            <span id="slot3" class="slot-item"></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="you-win-text" class="you-win-text">
+      Jackpot!
+    </div>
+    <audio id="jackpot">
+      <source src="mixkit-slot-machine-win-1928.wav">
+    </audio>
   </body>
 </html>
