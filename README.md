@@ -14,6 +14,17 @@ This game is very simple,
 
 Match the ``` audio / image ``` with eachother to win a jackpot, if you can't. YOU LOSE!!!
 
+# User Story 
+
+As a user, I want to give people a fun game to play that's rememerable and easy to play. I want to make it user friendly. Slots is a game that annoying sometimes, I wanted to take that and do something with it. I made this game easy to play and rewarding to win. In the future I would like to give this game to a company that can really do something with it as well as update it accordingly. 
+
+# Technologies Used:
+HTML
+CSS
+JavaScript (logic and DOM manipulation)
+
+## Wireframes 
+
 # **Losing Combo**
 
 ![Losing Combo](https://i.pinimg.com/originals/3f/f1/62/3ff162548796f9367d0efb13c7444dbf.jpg)
