@@ -1,9 +1,17 @@
-body {
-  background-image: url("https://coolwallpapers.me/picsup/1376841-casino.jpg");
-  background-size: cover;
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.slot-number {
-  font-size: 50px;
+body {
+  background-image: url("https://wallpapermemory.com/uploads/280/casino-background-hd-1920x1200-363667.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.slot-item {
+ 
+  
+  
+  font-size: 300px;
+  padding: 50px;
 }
 .you-win-text {
   text-align: center;
@@ -22,9 +30,11 @@ body {
   margin-right: auto;
 }
 .spin-button {
-  text-align: center;
+  margin-right: 1000px;
+  
 }
 button {
-    font-size: 50px;
-    
+  font-size: 50px;
+  padding: 50px;
+  border-radius: 50%;
 }
