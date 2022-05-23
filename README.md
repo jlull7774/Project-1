@@ -17,3 +17,7 @@ Match the ``` audio / image ``` with eachother to win a jackpot, if you can't. Y
 **Losing Combo**
 
 ![Losing Combo](https://i.pinimg.com/originals/3f/f1/62/3ff162548796f9367d0efb13c7444dbf.jpg)
+
+**Winning Jackpot** 
+
+![WinningJackpot](https://i.pinimg.com/originals/8a/cb/12/8acb12f25a559dafb10207cf8c4e716c.jpg)
