@@ -3,3 +3,19 @@ body {
     background-size: cover;
     
 }
+.slot-number {
+    font-size: 50px;
+}
+.you-win-text {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+.spin-slots {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+.table-slots {
+    text-align: center;
+}
