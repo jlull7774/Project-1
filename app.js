@@ -100,7 +100,7 @@ function spinTheMachine2() {
     if (item2 == 5) {
       alreadyRich();
     }
-  }, 10000);
+  }, 11000);
 }
 function spinTheMachine3() {
     setTimeout(() => {
@@ -131,7 +131,7 @@ function spinTheMachine3() {
       if (item3 == 5) {
         alreadyRich();
       }
-    }, 15000);
+    }, 17000);
   }
 function masterSpin() {
   spinTheMachine1();
