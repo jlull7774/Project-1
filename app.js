@@ -69,7 +69,7 @@ function spinTheMachine1() {
     if (item1 == 5) {
       alreadyRich();
     }
-  }, 5000);
+  }, 1000);
 }
 function spinTheMachine2() {
   setTimeout(() => {
@@ -100,7 +100,7 @@ function spinTheMachine2() {
     if (item2 == 5) {
       alreadyRich();
     }
-  }, 11000);
+  }, 7000);
 }
 function spinTheMachine3() {
     setTimeout(() => {
@@ -131,12 +131,15 @@ function spinTheMachine3() {
       if (item3 == 5) {
         alreadyRich();
       }
-    }, 17000);
+    }, 13000);
   }
 function masterSpin() {
   spinTheMachine1();
   spinTheMachine2();
   spinTheMachine3();
+}
+function reloadSlots() {
+    window.location.reload();
 }
 // console.log(item1, item2, item3);
 // randomItem();
