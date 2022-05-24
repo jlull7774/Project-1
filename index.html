@@ -7,30 +7,20 @@
     <title>Slot Machine</title>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" async defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1 class="spin-slots">Click to Spin the Slots!</h1>
-    <div class="spin-button">
-      <button onclick="spin()">Spin</button>
-    </div>
-    <table class="table-slots">
-      <tbody>
-        <tr>
-          <td>
-            <span id="slot1" class="slot-item">-</span>
-          </td>
-          <td>
-            <span id="slot2" class="slot-item">-</span>
-          </td>
-          <td>
-            <span id="slot3" class="slot-item">-</span>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <div id="you-win-text" class="you-win-text">Jackpot!</div>
-    <audio id="jackpot">
-      <source src="mixkit-slot-machine-win-1928.wav" />
-    </audio>
+    <div class="container-fluid">
+      <div class="d-flex justify-content-center fs-1 mt-2">Welcome To The Spin Machine</div>
+      <div class="d-flex flex-row justify-content-center mt-5">
+        <div class="p-2 mt-5">_</div>
+        <div class="p-2 mt-5">_</div>
+        <div class="p-2 mt-5">_</div>
+      </div>
   </body>
 </html>
