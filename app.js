@@ -38,7 +38,7 @@ function alreadyRich() {
 }
 
 function randomItem() {
-  return Math.floor(Math.random() * songs.length) + 1;
+  return Math.floor(Math.random() * 2) + 1;
 }
 function spinTheMachine1() {
   setTimeout(() => {
@@ -104,11 +104,18 @@ function spinTheMachine2() {
     }
   }, 11000);
 }
+function slotMachineWin() {
+  let audio7 = document.getElementById("slot-win");
+  if (item1 == item2 && (item2 == item3) & (item1 == item3)) {
+    audio7.play();
+  }
+}
 function spinTheMachine3() {
   setTimeout(() => {
     //   let line1 = document.getElementById("line1");
     //   let line2 = document.getElementById("line2");
 
+    slotMachineWin();
     let tryAgainButton = document.getElementById("try-again-button");
     tryAgainButton.className = "btn btn-light fs-3 my-5";
     let line3 = document.getElementById("line3");
@@ -144,11 +151,99 @@ function slotCountingMusic() {
 }
 
 function masterSpin() {
-  spinTheMachine1();
-  spinTheMachine2();
-  spinTheMachine3();
   slotCountingMusic();
+  let stopButton = document.getElementById("spin-button");
+  stopButton.className = "btn btn-light fs-2 my-5 mx-0 disabled";
+  setTimeout(() => {
+    let line1 = document.getElementById("line1");
+    // let line2 = document.getElementById("line2");
+    // let line3 = document.getElementById("line3");
+
+    let item1 = randomItem();
+    line1.innerHTML = item1;
+    if (item1 == 1) {
+      outOfTimeSong();
+    }
+    if (item1 == 2) {
+      loveSoRight();
+    }
+    if (item1 == 3) {
+      aroundTheWorld();
+    }
+    if (item1 == 4) {
+      luvMySlatts();
+    }
+    if (item1 == 5) {
+      alreadyRich();
+    }
+  }, 5000);
+
+  setTimeout(() => {
+    let item2 = randomItem();
+    // let item3 = randomItem();
+
+    line2.innerHTML = item2;
+    // line3.innerHTML = item3;
+
+    if (item2 == 1) {
+      outOfTimeSong();
+    }
+    if (item2 == 2) {
+      loveSoRight();
+    }
+    if (item2 == 3) {
+      aroundTheWorld();
+    }
+    if (item2 == 4) {
+      luvMySlatts();
+    }
+    if (item2 == 5) {
+      alreadyRich();
+    }
+  }, 11000);
+  setTimeout(() => {
+    let item3 = randomItem();
+    // let item3 = randomItem();
+
+    line3.innerHTML = item3;
+    // line3.innerHTML = item3;
+
+    if (item3 == 1) {
+      outOfTimeSong();
+    }
+    if (item3 == 2) {
+      loveSoRight();
+    }
+    if (item3 == 3) {
+      aroundTheWorld();
+    }
+    if (item3 == 4) {
+      luvMySlatts();
+    }
+    if (item3 == 5) {
+      alreadyRich();
+    }
+  }, 17000);
+  setTimeout(() => {
+    let audio7 = document.getElementById("slot-win");
+    if (
+      line1.innerHTML == line2.innerHTML &&
+      line2.innerHTML == line3.innerHTML &&
+      line3.innerHTML == line1.innerHTML
+    ) {
+      audio7.play();
+    }
+    let tryAgainButton = document.getElementById("try-again-button");
+    tryAgainButton.className = "btn btn-light fs-3 my-5";
+  }, 17500);
 }
+
+// spinTheMachine1();
+// spinTheMachine1();
+// spinTheMachine2();
+// spinTheMachine3();
+// slotCountingMusic();
+
 function reloadSlots() {
   window.location.reload();
 }
