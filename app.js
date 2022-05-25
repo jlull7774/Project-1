@@ -38,7 +38,7 @@ function alreadyRich() {
 }
 
 function randomItem() {
-  return Math.floor(Math.random() * 1) + 5;
+  return Math.floor(Math.random() * 5) + 1;
 }
 // function spinTheMachine1() {
 //   setTimeout(() => {
