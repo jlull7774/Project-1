@@ -24,3 +24,32 @@
   margin-right: 50px;
 }
 
+.p-2.mx-3 {
+  font-size: 100px;
+  padding-top: 0;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1518895312237-a9e23508077d?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1184");
+  background-size: cover;
+}
+#line1,
+#line2,
+#line3 {
+  text-decoration: underline;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}
+#header {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}
+#spin-button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}
+#try-again-button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}

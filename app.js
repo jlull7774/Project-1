@@ -42,6 +42,8 @@ function randomItem() {
 }
 function spinTheMachine1() {
   setTimeout(() => {
+    let stopButton = document.getElementById("spin-button");
+    stopButton.className = "btn btn-light fs-2 my-5 mx-0 disabled";
     let line1 = document.getElementById("line1");
     //   let line2 = document.getElementById("line2");
     //   let line3 = document.getElementById("line3");
@@ -69,7 +71,7 @@ function spinTheMachine1() {
     if (item1 == 5) {
       alreadyRich();
     }
-  }, 1000);
+  }, 5000);
 }
 function spinTheMachine2() {
   setTimeout(() => {
@@ -100,47 +102,57 @@ function spinTheMachine2() {
     if (item2 == 5) {
       alreadyRich();
     }
-  }, 7000);
+  }, 11000);
 }
 function spinTheMachine3() {
-    setTimeout(() => {
-      //   let line1 = document.getElementById("line1");
+  setTimeout(() => {
+    //   let line1 = document.getElementById("line1");
     //   let line2 = document.getElementById("line2");
-        let line3 = document.getElementById("line3");
-  
-      //   let item1 = randomItem();
+
+    let tryAgainButton = document.getElementById("try-again-button");
+    tryAgainButton.className = "btn btn-light fs-3 my-5";
+    let line3 = document.getElementById("line3");
+
+    //   let item1 = randomItem();
     //   let item2 = randomItem();
-      let item3 = randomItem();
-  
-      //   line1.innerHTML = item1;
+    let item3 = randomItem();
+
+    //   line1.innerHTML = item1;
     //   line2.innerHTML = item2;
-        line3.innerHTML = item3;
-  
-      if (item3 == 1) {
-        outOfTimeSong();
-      }
-      if (item3 == 2) {
-        loveSoRight();
-      }
-      if (item3 == 3) {
-        aroundTheWorld();
-      }
-      if (item3 == 4) {
-        luvMySlatts();
-      }
-      if (item3 == 5) {
-        alreadyRich();
-      }
-    }, 13000);
-  }
+    line3.innerHTML = item3;
+
+    if (item3 == 1) {
+      outOfTimeSong();
+    }
+    if (item3 == 2) {
+      loveSoRight();
+    }
+    if (item3 == 3) {
+      aroundTheWorld();
+    }
+    if (item3 == 4) {
+      luvMySlatts();
+    }
+    if (item3 == 5) {
+      alreadyRich();
+    }
+  }, 17000);
+}
+function slotCountingMusic() {
+  let audio6 = document.getElementById("slot-counting");
+  audio6.play();
+}
+
 function masterSpin() {
   spinTheMachine1();
   spinTheMachine2();
   spinTheMachine3();
+  slotCountingMusic();
 }
 function reloadSlots() {
-    window.location.reload();
+  window.location.reload();
 }
+
 // console.log(item1, item2, item3);
 // randomItem();
 // console.log(randomItem());
