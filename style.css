@@ -49,7 +49,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-variant: small-caps;
 }
-#try-again-button {
+
+#tries-left {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-variant: small-caps;
+  
+  font-size: 30px !important;
 }

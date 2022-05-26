@@ -1,3 +1,5 @@
+const { Button } = require("bootstrap");
+
 const songs = [
   "Out of Time",
   "Love So Right",
@@ -150,10 +152,15 @@ function slotCountingMusic() {
   audio6.play();
 }
 
+
+
+
 function masterSpin() {
   slotCountingMusic();
+  
   let stopButton = document.getElementById("spin-button");
   stopButton.className = "btn btn-light fs-2 my-5 mx-0 disabled";
+
   setTimeout(() => {
     let line1 = document.getElementById("line1");
     // let line2 = document.getElementById("line2");
@@ -233,7 +240,8 @@ function masterSpin() {
     ) {
       audio7.play();
     }
-    let tryAgainButton = document.getElementById("try-again-button");
+    stopButton.className = "btn btn-light fs-2 my-5 mx-0 disabled";
+    let tryAgainButton = document.getElementById("try-again");
     tryAgainButton.className = "btn btn-light fs-3 my-5";
   }, 16750);
 }
