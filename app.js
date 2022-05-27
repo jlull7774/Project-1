@@ -8,15 +8,15 @@ const songs = [
   "Already Rich",
 ];
 
-songs[0] = "Out of Time";
+// songs[0] = "Out of Time";
 
-songs[1] = "Love So Right";
+// songs[1] = "Love So Right";
 
-songs[2] = "Around the World";
+// songs[2] = "Around the World";
 
-songs[3] = "Luv My Slatts";
+// songs[3] = "Luv My Slatts";
 
-songs[4] = "Already Rich";
+// songs[4] = "Already Rich";
 
 function outOfTimeSong() {
   let audio1 = document.getElementById("out-of-time");
