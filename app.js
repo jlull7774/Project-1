@@ -7,6 +7,7 @@ const songs = [
   "Luv My Slatts",
   "Already Rich",
 ];
+// don't really need these
 
 // songs[0] = "Out of Time";
 
