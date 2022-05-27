@@ -1,5 +1,5 @@
 const { Button } = require("bootstrap");
-
+// declaring songs
 const songs = [
   "Out of Time",
   "Love So Right",
@@ -18,6 +18,7 @@ const songs = [
 
 // songs[4] = "Already Rich";
 
+// each song audio function
 function outOfTimeSong() {
   let audio1 = document.getElementById("out-of-time");
   audio1.play();
@@ -38,6 +39,7 @@ function alreadyRich() {
   let audio5 = document.getElementById("already-rich");
   audio5.play();
 }
+// random song picker function
 
 function randomItem() {
   return Math.floor(Math.random() * 5) + 1;
@@ -152,13 +154,16 @@ function slotCountingMusic() {
   audio6.play();
 }
 document.getElementById("hide").style.display = "none";
+// master function
 function masterSpin() {
   slotCountingMusic();
+  // this disables spin button
 
   let stopButton = document.getElementById("spin-button");
   stopButton.className = "btn btn-light fs-2 my-5 mx-0 disabled";
 
   setTimeout(() => {
+    // this is spin 1
     let line1 = document.getElementById("line1");
     // let line2 = document.getElementById("line2");
     // let line3 = document.getElementById("line3");
@@ -183,6 +188,7 @@ function masterSpin() {
   }, 4500);
 
   setTimeout(() => {
+    // this is spin 2
     let item2 = randomItem();
     // let item3 = randomItem();
 
@@ -206,6 +212,7 @@ function masterSpin() {
     }
   }, 10500);
   setTimeout(() => {
+    // spin 3
     let item3 = randomItem();
     // let item3 = randomItem();
 
@@ -229,6 +236,7 @@ function masterSpin() {
     }
   }, 16500);
   setTimeout(() => {
+    // winning audio will play if win conditions are met. also displays winning text and disabled spin button. 
     let audio7 = document.getElementById("slot-win");
     if (
       line1.innerHTML == line2.innerHTML &&
@@ -238,6 +246,7 @@ function masterSpin() {
       audio7.play();
       document.getElementById("hide").style.display = "block";
     }
+    // try again button is enabled now.
     stopButton.className = "btn btn-light fs-2 my-5 mx-0 disabled";
     let tryAgainButton = document.getElementById("try-again");
     tryAgainButton.className = "btn btn-light fs-3 my-5";
