@@ -1,4 +1,4 @@
-# Slot Machine of Memes
+# Roulette Slot Machine
 
 https://jlull7774.github.io/Project-1/
 
