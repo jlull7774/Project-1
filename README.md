@@ -1,4 +1,4 @@
-# Roulette Slot Machine
+# Jukebox Slot Machine
 
 https://jlull7774.github.io/Project-1/
 
