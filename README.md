@@ -1,4 +1,6 @@
-# Slot Machine of Memes
+# Jukebox Slot Machine
+
+https://jlull7774.github.io/Project-1/
 
 ## **Premise**
 
