@@ -151,13 +151,10 @@ function slotCountingMusic() {
   let audio6 = document.getElementById("slot-counting");
   audio6.play();
 }
-
-
-
-
+document.getElementById("hide").style.display = "none";
 function masterSpin() {
   slotCountingMusic();
-  
+
   let stopButton = document.getElementById("spin-button");
   stopButton.className = "btn btn-light fs-2 my-5 mx-0 disabled";
 
@@ -239,6 +236,7 @@ function masterSpin() {
       line3.innerHTML == line1.innerHTML
     ) {
       audio7.play();
+      document.getElementById("hide").style.display = "block";
     }
     stopButton.className = "btn btn-light fs-2 my-5 mx-0 disabled";
     let tryAgainButton = document.getElementById("try-again");
