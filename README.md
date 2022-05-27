@@ -1,5 +1,7 @@
 # Slot Machine of Memes
 
+https://jlull7774.github.io/Project-1/
+
 ## **Premise**
 
 This is a game where you press a ``` button ``` and get 5 random songs. You win once you have gotten 3 ``` songs ``` of the same in a row, just like a slot machine. 
